@@ -59,6 +59,7 @@
     <repositories>
         <repository>
             <id>maven-public</id>
+                 <url>http://nexus.home.local/repository/maven-public/</url>
         </repository>
     </repositories>
 
