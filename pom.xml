@@ -69,6 +69,7 @@
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
+            <url>http://nexus.home.local/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
