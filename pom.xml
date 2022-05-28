@@ -53,6 +53,10 @@
                     <target>8</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
 
@@ -66,9 +70,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
+            <url>http://nexus.home.local/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
+            <url>http://nexus.home.local/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
