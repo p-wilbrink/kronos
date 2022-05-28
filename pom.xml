@@ -66,6 +66,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
+            <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
